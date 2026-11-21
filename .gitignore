@@ -47,3 +47,17 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# Python package and local artifacts
+.venv/
+__pycache__/
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+*.key
+*.pem
+*.private
+*.model
+*.joblib
+*.pkl

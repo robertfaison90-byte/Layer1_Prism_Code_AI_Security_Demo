@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "prism-code-tags"
+version = "0.1.0"
+description = "Offline cryptographic tags for model artifacts with explicit trusted-key verification"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+authors = [{name = "Robert James Faison"}]
+dependencies = ["cryptography>=42,<51"]
+classifiers = ["Programming Language :: Python :: 3", "License :: OSI Approved :: MIT License", "Topic :: Security :: Cryptography"]
+
+[project.scripts]
+prism-tag = "prism_code_tags.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+

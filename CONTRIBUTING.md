@@ -1,0 +1,3 @@
+# Contributing
+
+Engineers may fork the repository, implement their own model adapters, and propose pull requests with a test demonstrating the intended behavior and failure path. Do not upload model weights, secrets, proprietary data, private keys, or customer traces. Run `python -m pip install -e .` then `python -m unittest discover -s tests -v`. Document supported Python versions, threat assumptions, and any new wire-format version. For cryptographic changes, request an independent review and retain backward compatibility or version the tag schema. All contributions use the repository LICENSE; contributors should verify they have rights to submit code.
