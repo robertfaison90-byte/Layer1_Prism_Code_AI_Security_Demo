@@ -2,6 +2,8 @@
 
 **The first open-source layer of PRISM EVO.** A small Python library and command-line tool that attaches an Ed25519-signed provenance tag to **any model file** and verifies its SHA-256 digest before an engineer loads or distributes the file. Owned by Robert James Faison. MIT licensed. Research release v0.1.0.
 
+**Release:** [PRISM Code Tags v0.1.0](https://github.com/robertfaison90-byte/Layer1_Prism_Code_AI_Security_Demo/releases/tag/PRISM_EVO_LEVEL1) (published tag: `PRISM_EVO_LEVEL1`). [Read the release notes](docs/RELEASE_NOTES_v0.1.0.md). Engineers can [share integration feedback](https://github.com/robertfaison90-byte/Layer1_Prism_Code_AI_Security_Demo/issues/2).
+
 ## What it is good for
 
 - Make model files traceable to a named training run or reviewed source reference.
